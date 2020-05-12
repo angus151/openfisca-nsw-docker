@@ -1,0 +1,8 @@
+formgenerator:
+    build: './formgenerator'
+    ports:
+        - '4200:4200'
+openfisca:
+    build: './openfisca'
+    ports:
+        - '4000:4000'
