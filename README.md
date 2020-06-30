@@ -36,4 +36,7 @@ Stop and remove containers and images
 
 To ensure servers are running the latest versions code run the following.
 
-`docker-compose up -d --force-recreate`
+```bash
+docker-compose down --rmi all
+docker-compose up -d
+```
